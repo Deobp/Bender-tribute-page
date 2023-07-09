@@ -1,0 +1,113 @@
+/* CSS for Tribute Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+
+    header, main, aside, footer {
+    max-width: 800px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .nav-list {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  blockquote {
+    border-left: 4px solid #333;
+    padding-left: 10px;
+  }
+  
+  figcaption {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  aside {
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  img {
+    max-height:600px
+  }
+  blockquote p {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  body > footer{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  
+  @media only screen and (max-width: 600px) {
+    body, main, aside, footer {
+      padding: 10px;
+    }
+  }
+  
+  
+  
+  
+
+  
